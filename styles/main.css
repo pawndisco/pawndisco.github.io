@@ -1,11 +1,18 @@
+html { overflow-y: scroll; }
+
 body {
     background-color: #212121;
     color: #fbfbfb;
     display: block;
     font-family:'Lucida Console', monospace;
-    position: fixed; /* or absolute */
-    top: 50%;
-    left: 50%;
+    position: absolute; /* or absolute */
+    /*top: 50%;
+    left: 50%;*/
     /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+    /*transform: translate(-50%, -50%);*/
+    text-align: justify;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 200px;
 }
+

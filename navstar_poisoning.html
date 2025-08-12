@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      NAVSTAR_POISONING
+    </title>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+  </head>
+  <body>
+    <h1>NAVSTAR POISONING</h1>
+    <h2>Esferas</h2>
+    <ul>
+      <li>Correspondencia: 3</li>
+    </ul>
+    <h2>Efecto</h2>
+      <p>
+        Por medio de una inyección malicioso de codigo en la red de GPS, el usuario puede manipular la información de su ubicación. Este programa requiere escuchar
+        continuamente la señal de 1600 MHz que emite la constelación de satelites de la red GPS para leer la ubicación del usuario e inyectar el codigo necesario.
+      </p>
+      <h3>Banderas</h3>
+      <ul>
+        <li>
+          <h4>--spoof-position &lt;coordinates&gt;</h4>
+          El programa busca inyectar información falsa cuando detecta que las coordenadas actuales del usuario estan siendo rastreadas. Se enfoca en 
+          medios electronicos de rastreo y en procesos que usen la esfera de correspondencia netamente.
+        </li>
+        <li>
+          <h4>--translocate &lt;coords-from&gt; &lt;coords-to&gt; </h4>
+          <p>Se puede hacer una transposición espacial, mas conocida como "teletransportacion". Esta bandera tiene algunas limitantes.</p>
+          
+          <p>
+            Al tener un buffer limitado de memoria, se usa una heuristica psicogeografica para determinar cuales coordenadas de destino 
+            guardar o descartar. Es decir, el programa sera mucho mas efectivo con coordenadas de destino las cuales el usuario sea mas 
+            familiar y/o haya visitado frecuentemente. Otro factor clave es la distancia geodesica entre las coordenadas de
+            origen y de destino, puesto que la transposición se hace menos precisa a mayor distancia. Por ultimo, se recomienda usar esta bandera de tal
+            forma que la transposición sea plausible dentro del marco de referencia ontologico de las personas cercanas al usuario.
+          </p>
+        </li>
+      </ul>
+    <h2>Descripcion</h2>
+    <p>
+      <i>
+        Creo que ni en sus peores sueños humedos George Orwell se imagino que algún dia tendriamos una forma de determinar la ubicación exacta de una persona en el mundo.
+        Antes de mi despertar, este hecho no se me hacia transcendental, pero ahora que lo veo con otros ojos... es un poco aterrador.
+      </i>
+    </p>
+    <p>
+      <i>
+        Satelites orbitando el planeta, triangulando, espiando. Con esta nueva perspectiva que tengo de la realidad observe esa constelación y Logre
+        montarme es su flujo de datos, una sinfonía binaria que se mueve a travez del vacío espacial. Una vez alli, me busque, o mejor dicho busque mi ubicación.
+        Me alarme, un ojo sin parpados y ominoso ponia atención ¿Quienes me vigilan?
+      </i>
+    </p>
+    <p>
+      <i>
+        Esto me incentivo a escribir NAVSTAR_POISONING, no quiero ser vigilado. No quiero que nadie mas me toque sin que yo quiera, no quiero que me hieran más. Empecé a jugar
+        con esta nueva información. Primero desacople mi ubicación binaria de mi ubicación verdadera, ese tipo de trucos lo llaman spoofing. Engañe al ojo, piensa que me vigila
+        pero tengo una herramienta para esconderme.
+      </i>
+    </p>
+        <p>
+      <i>
+        Un día, probando nuevos parametros para el spoofing, edite mi ubicación verdadera directamente... me movi medio metro en la habitación que me encontraba.
+        Senti panico de que el ojo hubiera visto ese extraño movimiento, pero afortunadamente seguia distraido por la ubicacion binaria falsa. Logre encontrar un modelo
+        de datos que relaciona lo digital con lo real... habia descubierto la transposición espacial. 
+      </i>
+    </p>
+  </body>
+</html>
